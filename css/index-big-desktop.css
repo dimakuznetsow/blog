@@ -1,0 +1,32 @@
+.note {
+  margin-bottom: 73px;
+  margin-right: 0;
+}
+.note img {
+  max-width: 370px;
+
+  border-radius: 10px;
+}
+
+.note .title {
+  width: 370px;
+}
+.category {
+  height: 368px;
+  width: 370px;
+}
+
+.category .line {
+  width: 306px;
+}
+
+.recent-post {
+  width: 370px;
+  height: 400px;
+}
+.recent-post p {
+  width: 220px;
+}
+.tags {
+  width: 370px;
+}

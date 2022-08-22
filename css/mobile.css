@@ -1,0 +1,97 @@
+body {
+  display: block;
+}
+
+.author-place-date {
+  flex-direction: column;
+}
+
+.date {
+  margin-top: 21px;
+}
+
+.a-b-c {
+  display: none;
+}
+
+.sign-up {
+  display: none;
+}
+
+main h1 {
+  font-family: "Noticia Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  /* or 111% */
+
+  color: #1044ff;
+
+  width: 304px;
+  margin-left: 28px;
+}
+.top-title {
+  width: 304px;
+}
+
+img {
+  max-width: 304px;
+}
+
+.foreword {
+  width: 304px;
+}
+
+.simple-text {
+  width: 304px;
+}
+
+.line {
+  height: 256px;
+}
+
+blockquote {
+  width: 271px;
+}
+
+.author-info {
+  width: 194px;
+}
+
+.hor-line {
+  width: 304px;
+}
+
+.hor-line-2 {
+  width: 304px;
+}
+
+.note {
+  margin-top: 60px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.share {
+  margin-left: 28px;
+}
+
+.category {
+  height: 368px;
+  width: 304px;
+}
+
+.category .line {
+  width: 240px;
+}
+.tags {
+  width: 304px;
+}
+.recent-post {
+  width: 304px;
+  height: 494px;
+}
+.recent-post p {
+  width: 128px;
+}

@@ -1,0 +1,69 @@
+.a-b-c {
+  display: none;
+}
+
+.sign-up {
+  display: none;
+}
+
+.top-title h3 {
+  margin-bottom: 221px;
+}
+
+.note {
+  margin-top: 28px;
+  margin-bottom: 60px;
+}
+.note img {
+  max-width: 304px;
+  border-radius: 5px;
+}
+.note .title {
+  width: 304px;
+}
+.notes {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.category {
+  margin-top: 100px;
+  height: 368px;
+  width: 306px;
+}
+
+.category .line {
+  width: 240px;
+}
+
+.recent-post {
+  margin-top: 32px;
+  width: 304px;
+  height: 494px;
+}
+.recent-post p {
+  width: 128px;
+}
+.tags {
+  margin-top: 32px;
+  width: 304px;
+}
+
+.contacts h1 {
+  font-family: "Noticia Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 64px;
+
+  margin-left: 28px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  /* identical to box height, or 152% */
+
+  color: #112a52;
+}
+
+body {
+  display: block;
+}

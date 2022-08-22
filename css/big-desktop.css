@@ -1,0 +1,70 @@
+img {
+  max-width: 770px;
+}
+
+main h1 {
+  width: 630px;
+}
+
+.date {
+  margin-left: 0;
+}
+main p {
+  width: 769px;
+}
+
+.category {
+  height: 368px;
+  width: 370px;
+}
+
+.category .line {
+  width: 306px;
+}
+
+.recent-post {
+  width: 370px;
+  height: 400px;
+}
+.recent-post p {
+  width: 220px;
+}
+.tags {
+  width: 370px;
+}
+
+line {
+  height: 112px;
+}
+
+.author-info {
+  width: 622px;
+}
+
+.hor-line {
+  width: 770px;
+}
+
+.hor-line-2 {
+  width: 770px;
+}
+blockquote {
+  width: 738px;
+}
+
+.related img {
+  max-width: 370px;
+}
+
+.related-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 28px;
+}
+
+.a-b-c {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}

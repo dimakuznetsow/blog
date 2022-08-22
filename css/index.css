@@ -1,0 +1,614 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Noticia+Text:wght@700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+/* MOBILE */
+
+@import "index-mobile.css" screen and (max-width: 812px);
+
+@import "index-small-desktop.css" screen and (min-width: 813px);
+
+@import "index-big-desktop.css" screen and (min-width: 1367px);
+
+/* MAIN */
+
+header {
+  display: flex;
+  flex-direction: row;
+  background: #ffe7e7;
+}
+
+header h1 {
+  position: absolute;
+  font-family: "Noticia Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 80px;
+  margin-top: auto;
+  margin-left: 28px;
+  letter-spacing: 4px;
+
+  color: #1044ff;
+}
+.k-b {
+  display: flex;
+  flex-direction: row;
+  margin-top: 29px;
+  margin-bottom: 29px;
+  margin-left: 306px;
+}
+
+header .dot {
+  display: block;
+  background-color: #1044ff;
+  width: 4px;
+  height: 4px;
+  margin-bottom: 6px;
+  margin-right: 3px;
+  border-radius: 10px;
+}
+
+header .long {
+  display: block;
+  background-color: #1044ff;
+  width: 19px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+}
+
+header .short {
+  display: block;
+  background-color: #1044ff;
+  width: 12px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+}
+
+header .middle {
+  display: block;
+  background-color: #1044ff;
+  width: 16px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+}
+
+.top-title {
+  display: flex;
+  flex-direction: column;
+  background: #ffe7e7;
+}
+
+.top-title h1 {
+  font-family: "Noticia Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+
+  margin-top: 141px;
+  margin-bottom: 0;
+  margin-left: 27px;
+
+  /* or 111% */
+
+  color: #1044ff;
+}
+
+.top-title h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  margin-top: 14px;
+  margin-left: 27px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #1044ff;
+}
+
+.note {
+  margin-left: 28px;
+  /* margin-right: 28px; */
+}
+
+.note a:hover,
+a:visited,
+a:link,
+a:active {
+  color: unset;
+  text-decoration: none;
+}
+
+article .place {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  width: 304px;
+  margin-top: 30px;
+  margin-bottom: 17px;
+
+  color: #333333;
+}
+
+article .author {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 304px;
+
+  margin-top: 19px;
+
+  color: rgba(51, 51, 51, 0.65);
+
+  display: flex;
+  flex-direction: row;
+}
+
+article .author a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 304px;
+
+  color: rgba(51, 51, 51, 0.65);
+
+  display: flex;
+  flex-direction: row;
+}
+
+article .author .name {
+  margin-left: 16px;
+  align-self: center;
+}
+
+article .title {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #112a52;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-top: 30px;
+}
+
+.button-1 {
+  width: 48px;
+  height: 48px;
+  border-radius: 3px;
+  background-color: #1044ff;
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 48px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.button-2 {
+  width: 48px;
+  height: 46px;
+  border-radius: 3px;
+  border: 1px solid rgba(16, 68, 255, 0.32);
+  color: #1044ff;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 48px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.button-next {
+  width: 192px;
+  height: 46px;
+  border-radius: 3px;
+  border: 1px solid rgba(16, 68, 255, 0.32);
+  color: #1044ff;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.category {
+  box-sizing: border-box;
+
+  margin-left: 28px;
+  margin-right: 28px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid #1044ff;
+  border-radius: 3px;
+}
+
+.category h1 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 40px;
+  margin-left: 32px;
+
+  color: #333333;
+}
+
+.category p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 9px;
+  margin-left: 32px;
+
+  color: #333333;
+}
+
+.category .number {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: rgba(51, 51, 51, 0.65);
+}
+
+.category .line {
+  background: #1044ff;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  height: 1px;
+  display: block;
+  margin-left: 32px;
+}
+
+.recent-post {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid #1044ff;
+  border-radius: 3px;
+  margin-left: 28px;
+}
+
+.recent-post h1 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  margin-top: 40px;
+  margin-bottom: 23px;
+  margin-left: 32px;
+
+  color: #333333;
+}
+
+.post-date {
+  margin-bottom: 21px;
+  margin-left: 32px;
+  display: flex;
+  flex-direction: row;
+
+  position: relative;
+  align-items: flex-start;
+}
+
+.recent-post p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.65);
+
+  margin-left: 16px;
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.recent-post .date {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+
+  color: #333333;
+}
+
+.tags {
+  height: 224px;
+
+  margin-left: 28px;
+
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid #1044ff;
+  border-radius: 3px;
+}
+
+.tags h1 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  margin-top: 40px;
+  margin-left: 32px;
+
+  color: #333333;
+}
+
+.tags .links {
+  margin-left: 32px;
+}
+
+.tags p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-bottom: 8px;
+  margin-top: 0;
+
+  color: #333333;
+}
+
+.tags .item {
+  margin-right: 22px;
+}
+
+.contacts {
+  margin-top: 100px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background: #ffe7e7;
+}
+
+.contacts .thoughts {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 88px;
+  margin-left: 28px;
+  /* identical to box height, or 120% */
+
+  color: #1044ff;
+}
+
+.contacts-card-location {
+  height: 88px;
+  width: 216px;
+  background: rgba(255, 255, 255, 0.55);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  margin-left: 28px;
+  margin-right: 28px;
+
+  margin-bottom: 30px;
+
+  border-radius: 5px;
+  /* identical to box height, or 133% */
+
+  color: #0c1f3f;
+  padding-top: 24px;
+  padding-left: 88px;
+
+  background-image: url(icons/location.svg);
+  background-repeat: no-repeat;
+  background-position: 26px 50%;
+}
+
+.contacts-card-call {
+  height: 88px;
+  width: 216px;
+  background: rgba(255, 255, 255, 0.55);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  margin-left: 28px;
+  margin-right: 28px;
+
+  margin-bottom: 30px;
+
+  border-radius: 5px;
+  /* identical to box height, or 133% */
+
+  color: #0c1f3f;
+  padding-top: 24px;
+  padding-left: 88px;
+
+  background-image: url(icons/call-calling.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 21px 50%;
+}
+
+.contacts-card-map {
+  height: 88px;
+  width: 216px;
+  background: rgba(255, 255, 255, 0.55);
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  margin-left: 28px;
+  margin-right: 28px;
+
+  margin-bottom: 30px;
+
+  border-radius: 5px;
+
+  color: #0c1f3f;
+  padding-top: 24px;
+  padding-left: 88px;
+
+  background-image: url(icons/location.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 23px 50%;
+}
+
+.contacts .grey {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.65);
+  margin-top: 7px;
+}
+
+.contacts .gmail {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 7px;
+}
+
+#bottom {
+  display: block;
+
+  background-color: #1044ff;
+  margin: 0;
+}
+
+#bottom h1 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 80px;
+
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: 28px;
+
+  letter-spacing: 4px;
+
+  color: #fcd8d4;
+}
+
+#bottom p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 470px;
+
+  margin-left: 28px;
+  margin-right: 30px;
+  margin-top: 0;
+
+  color: #ffffff;
+}
+
+.social-media {
+  color: #fcd8d4;
+  margin-left: 28px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+nav ul {
+  margin-top: 90px;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 8px;
+}
+
+.list:first-line {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-bottom: 16px;
+
+  color: #fcd8d4;
+}
+
+.list {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-top: 0;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  display: block;
+  background: #0c1f3f;
+}
+
+footer p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #fff;
+
+  text-align: center;
+  line-height: 80px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
